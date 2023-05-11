@@ -1,0 +1,44 @@
+1. 
+{name: "Babelgum"}
+
+2.
+filter: {number_of_employees:5000} sort: {number_of_employees: 1} limit: 20
+
+3.
+filter: {founded_year:{$gte:ISODate("2000-01-01"), $lt:ISODate("2005,12,31")}} project: {name:1} {founded_year:1} {id:0}
+
+4.
+
+
+5.
+
+6.
+
+7.
+filter: {category_code:null}
+
+8.
+
+9.
+sort: {ipo_valuation_amount: -1}
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+project: {founded_year:1,name:1,_id:0} sort: {founded_year:1}
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
